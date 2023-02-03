@@ -30,10 +30,10 @@
 }
 
 .contactbg {
-    background-image: url(millie.png);
+    background-image: url(millie.gif);
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 700px;
 
 }
 
@@ -60,12 +60,14 @@ li a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
 }
 
 a:hover {
-    text-decoration: underline;
+    font-size: 18px;
     border-radius: 50px;
+    transition: 0.5s;
+    color: blue;
 }
 
 li a:hover {
@@ -116,4 +118,27 @@ td {
     text-align: center;
     background-color: black;
     color: white;
+}
+
+.msg {
+    height: 250px;
+    width: 500px;
+}
+
+.email,
+.fname {
+    width: 400px;
+}
+
+.submit {
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 25px;
+    border-color: aqua;
+}
+
+.submit:hover {
+    font-size: 18px;
+    transition: 0.5s;
 }
